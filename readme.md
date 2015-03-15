@@ -17,6 +17,6 @@ Explore some concepts in code:
 
 - [themes.php config file] (https://github.com/igaster/laravel-theme-demo/blob/master/config/themes.php) : setup themes
 - [routes.php] (https://github.com/igaster/laravel-theme-demo/blob/master/app/Http/routes.php) : defines the route that handle theme switching
-- [myMiddleware.php](https://github.com/igaster/laravel-theme-demo/blob/master/app/Http/Middleware/myMiddleware.php) : sets the current theme on each request
+- [myMiddleware.php](https://github.com/igaster/laravel-theme-demo/blob/master/app/Http/Middleware/myMiddleware.php) : sets the current theme on each request, enabled in [Kernel.php](https://github.com/igaster/laravel-theme-demo/blob/master/app/Http/Kernel.php)
 - [public folder](https://github.com/igaster/laravel-theme-demo/tree/master/public) : each theme overides SOME assets (img/test.png) or shares the other (theme.css)
 - [views folder](https://github.com/igaster/laravel-theme-demo/tree/master/resources/views) : "index.blade" is overiden by each theme. "links.blade" is shared.
