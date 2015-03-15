@@ -1,4 +1,4 @@
-## Demo applicatio for larave-theme package
+## Demo application for larave-theme package
 
 This is a Laravel application that was build as a demo for my [laravel-theme](https://github.com/igaster/laravel-theme) package
 
